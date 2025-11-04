@@ -1,7 +1,7 @@
 {
       "name": "Homepage",
       "version": "0.1.0",
-	  "homepage": "https://yourusername.github.io/your-repo-name",
+	"homepage": "https://github.com/XingyanMao/homepage",
       "private": true,
       "dependencies": {
             "@radix-ui/react-accordion": "^1.2.3",
@@ -55,8 +55,7 @@
       },
       "scripts": {
             "dev": "vite",
-            "predeploy": "npm run build",
-            "deploy": "gh-pages -d dist",
-            "build": "vite build"
+            "build": "vite build",
+            "preview": "vite preview"
       }
 }
