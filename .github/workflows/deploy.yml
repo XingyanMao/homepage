@@ -24,8 +24,12 @@ jobs:
           node-version: '18'
           cache: 'npm'
           
-      - name: Install dependencies
-        run: npm install
+      - name: Clean install and fix npm bug
+        run: |
+          rm -rf node_modules package-lock.json
+          npm install
+          rm -rf node_modules
+          npm install --no-optional
         
       - name: Build project
         run: npm run build
