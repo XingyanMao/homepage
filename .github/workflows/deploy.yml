@@ -27,9 +27,8 @@ jobs:
       - name: Clean install and fix npm bug
         run: |
           rm -rf node_modules package-lock.json
+          npm cache clean --force
           npm install
-          rm -rf node_modules
-          npm install --no-optional
         
       - name: Build project
         run: npm run build
