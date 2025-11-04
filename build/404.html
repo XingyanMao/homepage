@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script>
+      // 自动重定向到主页面
+      var currentPath = window.location.pathname;
+      // 如果不是根路径且不是资源文件，重定向
+      if (!currentPath.includes('assets') && !currentPath.includes('.')) {
+        window.location.href = './index.html';
+      }
+    </script>
+    <meta http-equiv="refresh" content="0;URL='./index.html'">
+  </head>
+  <body>
+    <p>正在跳转到首页...</p>
+  </body>
+</html>
