@@ -73,9 +73,9 @@ export default function App() {
   const blogPosts = [
     {
       id: 1,
-      title: "The Art of Minimalist Design",
-      excerpt: "Exploring how less can truly be more in the world of design and creativity.",
-      date: "October 15, 2024",
+      title: "从长文到爆款：一套专业的内容重构方法论",
+      excerpt: "在信息过载的时代，如何将深度内容转化为社交媒体上的高价值传播？这不仅是技巧，更是一套系统化的工程。",
+      date: "November 10, 2024",
       image: "https://images.unsplash.com/photo-1761746395536-00d334eba480?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXNpZ24lMjBwcm9jZXNzJTIwc2tldGNofGVufDF8fHx8MTc2MjE3MzkxMXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       readTime: "5 min read"
     },
